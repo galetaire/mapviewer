@@ -1,1 +1,36 @@
-Hellow worldQ
+<script type="text/javascript"
+      src="http://www.openlayers.org/api/OpenLayers.js">
+</script>
+
+<div id="miMapa" style="width: 1260px; height:840px;">
+
+<script type="text/javascript">
+  var mapa2 = new OpenLayers.Map("miMapa");
+  var osm = new OpenLayers.Layer.OSM();
+  mapa2.addLayer(osm);
+  mapa2.addControl(new OpenLayers.Control.LayerSwitcher(true));
+  mapa2.addControl(new OpenLayers.Control.MousePosition({ numDigits: 2 }));
+  mapa2.addControl(new OpenLayers.Control.ScaleLine());
+  mapa2.setCenter(new OpenLayers.LonLat(0, 40).transform(
+      new OpenLayers.Projection("EPSG:4326"),
+      mapa2.getProjectionObject()
+      ), 5);
+ 
+  function posicioname(){
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(position) {
+      var lat = position.coords.latitude;
+      var lng = position.coords.longitude;
+      var lnglat = new OpenLayers.LonLat(lng,lat).transform(
+          new OpenLayers.Projection("EPSG:4326"),
+          mapa2.getProjectionObject())
+      mapa2.setCenter(lnglat, 14);
+     
+      var markers = new OpenLayers.Layer.Markers( "Marcas" );
+      markers.addMarker(new OpenLayers.Marker(lnglat));
+      mapa2.addLayer(markers);
+         
+      });
+    }
+  }
+</script>
