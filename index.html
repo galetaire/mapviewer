@@ -1,41 +1,54 @@
-Un dels aspectes clau,
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact form</title>
+</head>
 
-es anar a la milla 
+<body>
 
+<link href="contact-form.css" rel="stylesheet">
 
-<script type="text/javascript"
-      src="http://www.openlayers.org/api/OpenLayers.js">
-</script>
+<div class="fcf-body">
 
-<div id="miMapa" style="width: 1260px; height:840px;">
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
 
-<script type="text/javascript">
-  var mapa2 = new OpenLayers.Map("miMapa");
-  var osm = new OpenLayers.Layer.OSM();
-  mapa2.addLayer(osm);
-  mapa2.addControl(new OpenLayers.Control.LayerSwitcher(true));
-  mapa2.addControl(new OpenLayers.Control.MousePosition({ numDigits: 2 }));
-  mapa2.addControl(new OpenLayers.Control.ScaleLine());
-  mapa2.setCenter(new OpenLayers.LonLat(0, 40).transform(
-      new OpenLayers.Projection("EPSG:4326"),
-      mapa2.getProjectionObject()
-      ), 5);
- 
-  function posicioname(){
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position) {
-      var lat = position.coords.latitude;
-      var lng = position.coords.longitude;
-      var lnglat = new OpenLayers.LonLat(lng,lat).transform(
-          new OpenLayers.Projection("EPSG:4326"),
-          mapa2.getProjectionObject())
-      mapa2.setCenter(lnglat, 14);
-     
-      var markers = new OpenLayers.Layer.Markers( "Marcas" );
-      markers.addMarker(new OpenLayers.Marker(lnglat));
-      mapa2.addLayer(markers);
-         
-      });
-    }
-  }
-</script>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
