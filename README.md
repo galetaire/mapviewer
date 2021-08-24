@@ -1,1 +1,1 @@
-Repositori per testejar visors de mapes.
+Repositori per testejar.
