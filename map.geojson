@@ -1,37 +1,22 @@
-var pubsEstiloIrlandes = {
+var parquesjson = {
 "type": "FeatureCollection",
 "features": [{
 	"type": "Feature",
 	"properties": {
-	"nombre": "Guiness Cave",
-	"descripcion": "La mejor Guiness",
-	"rating": "3 sobre 5"
+	"nombre": "Parc del Putget"
 	},
 	"geometry": {
 	"type": "Point",
-	"coordinates": [2.660146987561035, 39.5845785478536214]
+	"coordinates": [2.1426773071289062, 41.408230864902784]
 	}
 	},{
 	"type": "Feature",
 	"properties": {
-	"nombre": "Pub McCulloch",
-	"descripcion": "Genial para ver el 6 naciones",
-	"rating": "4 sobre 5"
+	"nombre": "Parc de la Ciutadella"
 	},
 	"geometry": {
 	"type": "Point",
-	"coordinates": [2.635453478964125, 39.5732452187632145]
-	}
-	},{
-	"type": "Feature",
-	"properties": {
-	"nombre": "Madison Square Garden",
-	"descripcion": "Muy buena música",
-	"rating": "5 sobre 5"
-	},
-	"geometry": {
-	"type": "Point",
-	"coordinates": [2.6662509582251953, 39.568127792918444]
+	"coordinates": [2.1864509582251953, 41.387627792918444]
 	}
 	}
 ]}
