@@ -12,15 +12,6 @@ imperial: true
 //--------------------------------------------------------------------------------CAPAS GEOGRAFICAS
 //-------------------------------------------------------------------------------------------------
 
-//Definimos la url del opencycle map para luego llamarla mas facilmente
-var ocmUrl = 'http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png';
-
-// LLamamos al tilelayer del opencyclemap (ocm)
-var ocm = L.tileLayer (ocmUrl, {
-maxZoom: 18,
-attribution: 'Map tiles by <a href="http://www.opencyclemap.org/">OpenCycleMap</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC-BY-3.0 </a>. Data by <a href="http://www.opencyclemap.org/">OpenCycleMap</a>,under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA</a>.'
- }).addTo(map);
-
  //Llamamos al tilelayer de openstreetmap (osm)
 var osm = L.tileLayer('https://tile.openstreetmap.org/${z}/${x}/${y}.png',{
 maxZoom: 18,
