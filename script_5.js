@@ -72,7 +72,7 @@ layer.bindPopup(("<b>Descripción:</b> " + feature.properties.tipo_p_des +
 });
 
 //Llamamos a la capa kml de portales a través de omnivore
-omnivore.kml('P4/puntos_leaflet.kml', null, portales).addTo(map);
+omnivore.kml('puntos_leaflet.kml', null, portales).addTo(map);
 
 //Definimos el control para activar/desactivar las capas que hemos cargado, definiendolas como capas base
 var baseMaps = {
