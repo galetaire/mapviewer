@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>puntos_leaflet</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">3</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.642204702784966,39.591118024877119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">6</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.640530843223985,39.58786170925066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">1</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.637437721273955,39.591623611140903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">2</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.642179560438535,39.58683295137979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">1</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.642515878105428,39.587332369193632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">5</SimpleData>
+		<SimpleData name="extension">A</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.640650264198484,39.586918262867698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">2</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.638019539470349,39.587754706114936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">70</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.637580967088127,39.585629318538395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">72</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.639306215709439,39.585440970824322</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">5</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.640637281585441,39.588408361257052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#puntos_leaflet">
+		<SimpleData name="id_por_pk">2147483647</SimpleData>
+		<SimpleData name="id_tramo">2147483647</SimpleData>
+		<SimpleData name="id_vial">2147483647</SimpleData>
+		<SimpleData name="id_cp">2147483647</SimpleData>
+		<SimpleData name="num_por">5</SimpleData>
+		<SimpleData name="tipo_porta">1</SimpleData>
+		<SimpleData name="tipo_p_des">Portal</SimpleData>
+		<SimpleData name="fuente">19</SimpleData>
+		<SimpleData name="fuente_des">Illes Balears</SimpleData>
+		<SimpleData name="alta_db">2012/05/24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>2.640946914568588,39.588413155542867</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="puntos_leaflet" id="puntos_leaflet">
+	<SimpleField name="id_por_pk" type="int"></SimpleField>
+	<SimpleField name="id_tramo" type="int"></SimpleField>
+	<SimpleField name="id_vial" type="int"></SimpleField>
+	<SimpleField name="id_cp" type="int"></SimpleField>
+	<SimpleField name="num_por" type="int"></SimpleField>
+	<SimpleField name="extension" type="string"></SimpleField>
+	<SimpleField name="tipo_porta" type="int"></SimpleField>
+	<SimpleField name="tipo_p_des" type="string"></SimpleField>
+	<SimpleField name="fuente" type="string"></SimpleField>
+	<SimpleField name="fuente_des" type="string"></SimpleField>
+	<SimpleField name="alta_db" type="string"></SimpleField>
+</Schema>
+</Document></kml>
