@@ -1,4 +1,4 @@
-var map = L.map('map').setView([39.5782, 2.6489], 14);
+var map = L.map('map').setView([33.9834775, -118.4047276], 18);
 
 map.on('draw:created', function (evento){
 var layer = evento.layer;
@@ -14,7 +14,7 @@ var paint = L.tileLayer ('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png'
 maxZoom: 18,
 attribution: 'Map tiles by <a href="http://stamen.com">Stamen Desgn</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC-BY-3.0 </a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>,under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA</a>.'
  });
- 
+
  var icc = L.tileLayer.wms ("http://geoserveis.icc.cat/icc_mapesbase/wms/service?",{
  layers: 'mtc25m',
  format: 'image/png',
