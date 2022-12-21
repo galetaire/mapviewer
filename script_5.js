@@ -1,7 +1,7 @@
 //----------------------------------------------------------------------------------MAPA Y OPCIONES
 //-------------------------------------------------------------------------------------------------
 //Definimos el mapa y centramos la vista
-var map = L.map('map').setView([33.9834775, -118.4047276], 18);
+var map = L.map('map').setView([33.9834, -118.4047], 18);
 
 //Añadimos un control de escala al mapa
 L.control.scale({
