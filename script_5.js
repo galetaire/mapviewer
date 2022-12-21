@@ -1,9 +1,9 @@
 //----------------------------------------------------------------------------------MAPA Y OPCIONES
 //-------------------------------------------------------------------------------------------------
 //Definimos el mapa y centramos la vista
-var map = L.map('map').setView([39.5782, 2.6489], 14);
+var map = L.map('map').setView([33.9834775, -118.4047276], 18);
 
-//Añadimos un control de escala al mapa 
+//Añadimos un control de escala al mapa
 L.control.scale({
 position: 'bottomleft',
 imperial: true
@@ -25,7 +25,7 @@ attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</
  transparent: true,
  attribution: 'Map owner <a href="http://geopole.org/map/wms/sja5gf/689049">Mr Matthew Harrison</a>, served by <a href="http://geopole.org">Geopole</a>'
  });
- 
+
 //Definimos el archivo geoJson sobre pubs, lo llamamos y le asociamos una funcion para abrir popups
 var pubs = L.geoJson(pubsEstiloIrlandes, {
 onEachFeature: agregarPopup
@@ -40,7 +40,7 @@ layer.bindPopup(("<b>Nombre:</b> " + feature.properties.nombre +
 
 //Definimos el estilo del KML que seran portales de casas aleatorios
 var markerGold = L.icon({
-	iconUrl: 'img/marker-gold.png', 
+	iconUrl: 'img/marker-gold.png',
     iconRetinaUrl: 'my-icon@2x.png',
     iconSize: [21, 25],
     iconAnchor: [22, 94],
@@ -122,7 +122,7 @@ var optionsDraw = {
         },
         circle: false, //Desactivamos la opcion de dibujar circulos
         rectangle: false, //Desactivamos la opcion de dibujar rectangulos
-		marker: { // Definimos como seran los markers 
+		marker: { // Definimos como seran los markers
             icon: new customMarker() //Decimos que llame a customMarker, que es un estilo personalizado
         },
     },
@@ -137,7 +137,7 @@ var drawControl = new L.Control.Draw(optionsDraw).addTo(map);
 
  //Insertamos un plugin para mostrar la miniventana, url: https://github.com/Norkart/Leaflet-MiniMap
 var ocm2 = new L.TileLayer(ocmUrl, {minZoom: 0, maxZoom: 15, attribution: 'OpenCycleMap'});
-var miniMap = new L.Control.MiniMap(ocm2, { toggleDisplay: true }).addTo(map); 
+var miniMap = new L.Control.MiniMap(ocm2, { toggleDisplay: true }).addTo(map);
 
 //Insertamos un plugin para mostrar las coordenadas del raton, url:https://github.com/ardhi/Leaflet.MousePosition
 L.control.mousePosition({
