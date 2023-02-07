@@ -1,4 +1,4 @@
-var map = L.map('map').setView([33.9834, -118.4047], 18);
+var map = L.map('map').setView([39.5512, 2.6295], 12);
 
 map.on('draw:created', function (evento){
 var layer = evento.layer;

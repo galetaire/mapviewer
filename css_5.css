@@ -1,9 +1,0 @@
-/* Estilo del mapa, amplitud, margenes...*/
-html, body, #map{
-display: block;
-margin-left: auto;
-margin-right: auto;
-height:600px;
-width:800px;
-}
-
