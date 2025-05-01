@@ -1,6 +1,6 @@
 ## Description
 
-Leaflet map viewer.
+Test area for Leaflet and D3 maps.
 
 ## Website access
 
